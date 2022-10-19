@@ -198,7 +198,8 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  width: 60%;
+  width: calc(var(--width, 0) * 1%);
+  max-width: 100%;
   background-color: #a75b12;
   border-radius: 5px;
 }
