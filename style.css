@@ -1,0 +1,208 @@
+@import url(//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold);
+@font-face {
+  font-family: "Druk Wide Bold";
+  src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot");
+  src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold") format("svg");
+}
+
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family: "Druk Wide Bold";
+}
+
+.logo img {
+  width: 203px;
+  height: 32px;
+}
+
+.gold img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 230px;
+  width: 450px;
+}
+
+.navbar {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding: 20px 30px 30px 30px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0 0 0 50px;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  left: 300px;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  position: relative;
+  margin: 0;
+}
+
+.photo1 {
+  height: 480px;
+  width: 732px;
+  margin: 0 0 0 25px;
+}
+
+.photo2 {
+  height: 480px;
+  width: 246px;
+  z-index: 1;
+  position: relative;
+}
+
+.photo3 {
+  height: 100px;
+  width: 100px;
+  z-index: 1;
+  right: 48vw;
+  top: 60px;
+  position: absolute;
+}
+
+.photo4 {
+  height: 140px;
+  width: 180px;
+  z-index: 1;
+  position: relative;
+  margin-top: -10px;
+}
+
+.vector img {
+  position: relative;
+  width: 98vw;
+  margin: -9vw 0 0 0;
+  z-index: 2;
+}
+
+.white {
+  color: white;
+}
+
+.stats-container {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  z-index: 4;
+  top: 35%;
+  right: 0;
+  gap: 20px;
+  width: 20.5%;
+  background-color: #000000;
+}
+
+.stats {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 90px;
+  z-index: 4;
+  background-color: #000000;
+  margin: 0 0 0 20px;
+}
+
+.stats p {
+  white-space: nowrap;
+}
+
+.rotate-left {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 12px !important;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.rotate-flex {
+  align-self: center;
+}
+
+.gray {
+  color: #3f3e44 !important;
+  font-weight: lighter;
+}
+
+.big {
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.small {
+  font-size: 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.stat-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 10px;
+  width: 100px;
+}
+
+.footer {
+  margin: 0 0 0 30px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.progress-bar {
+  position: relative;
+  width: 250px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: white;
+}
+
+.progress-bar::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+  background-color: #a75b12;
+  border-radius: 5px;
+}
+
+.footer-text {
+  width: 350px;
+}
